@@ -290,9 +290,9 @@ related_posts:
   params:
     maxCount: 5
     #PPMixingRate: 0.0
-    #isDate: false
+    isDate: true
     #isImage: false
-    #isExcerpt: false
+    isExcerpt: true
 
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
@@ -521,13 +521,12 @@ math:
   katex:
     enable: true
     cdn: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
-    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
-     copy_tex:
-      # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
-      enable: true
-      copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js
-      copy_tex_css: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css
-
+    # # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+    #  copy_tex:
+    #   # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+    #   enable: true
+    #   copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js
+    #   copy_tex_css: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css
 
 # Easily enable fast Ajax navigation on your website.
 # Dependencies: https://github.com/theme-next/theme-next-pjax
